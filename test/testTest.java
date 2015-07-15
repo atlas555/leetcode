@@ -39,10 +39,10 @@ public class testTest {
     }
 
 
-    public static void main(String args[]) {
-//       new testTest().testTwoSum();
-//        new testTest().testSortList();
-//        new testTest().testSingletonEnum();
-        new testTest().testfindMaxIndexInOrderAscAndDesc();
-    }
+//    public static void main(String args[]) {
+////       new testTest().testTwoSum();
+////        new testTest().testSortList();
+////        new testTest().testSingletonEnum();
+////        new testTest().testfindMaxIndexInOrderAscAndDesc();
+//    }
 }
