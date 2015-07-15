@@ -3,6 +3,8 @@ package test;
 import org.junit.Test;
 
 import main.java.mergerSortedArray;
+import main.java.others.SingletonEnum;
+import main.java.others.findMaxIndexInOrderAscAndDesc;
 import main.java.twoSum;
 
 /**
@@ -24,9 +26,23 @@ public class testTest {
         System.out.println("ok");
     }
 
+    @Test
+    public void testSingletonEnum(){
+        SingletonEnum.INSTANCE.test();
+    }
+
+    @Test
+    public void testfindMaxIndexInOrderAscAndDesc(){
+        int[] A = {1,0};
+        int index = new findMaxIndexInOrderAscAndDesc().findIndex(A,A.length);
+        System.out.println(index);
+    }
+
+
     public static void main(String args[]) {
 //       new testTest().testTwoSum();
 //        new testTest().testSortList();
-
+//        new testTest().testSingletonEnum();
+        new testTest().testfindMaxIndexInOrderAscAndDesc();
     }
 }
