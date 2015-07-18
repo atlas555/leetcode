@@ -1,8 +1,11 @@
-package main.java;
+package java;
 
 /**
  * @author xiaolong.zhang
  */
+
+import java.deleteNodeInALinkedList.ListNode;
+
 /**
  * Definition for singly-linked list.
  * class ListNode {

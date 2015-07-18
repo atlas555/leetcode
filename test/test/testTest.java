@@ -1,11 +1,12 @@
 package test;
 
+import java.others.findMaxIndexInOrderAscAndDesc;
+import java.twoSum;
+
 import org.junit.Test;
 
 import main.java.mergerSortedArray;
 import main.java.others.SingletonEnum;
-import main.java.others.findMaxIndexInOrderAscAndDesc;
-import main.java.twoSum;
 
 /**
  * xiaolong.zhang

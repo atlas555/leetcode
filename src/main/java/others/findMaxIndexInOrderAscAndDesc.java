@@ -1,4 +1,4 @@
-package main.java.others;
+package java.others;
 
 /**
  * xiaolong.zhang3
